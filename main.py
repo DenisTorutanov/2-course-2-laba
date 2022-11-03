@@ -10,7 +10,7 @@ rang = np.linalg.matrix_rank(x)
 print("Матрица:\n", x)
 print("Ранг матрицы:", rang)
 
-t = int(input('\nВведите количество знаков после запятой в результате вычисления:'))
+t = int(input('\nВведите количество знаков после запятой:'))
 t = (10**(-t))
 
 n = 1
@@ -30,4 +30,4 @@ while abs(temp_result) > t:
     temp_sum = 0
     print(n-1, ':', sum, ' ', temp_result)
 
-print("Сумма знакопеременного ряда: ", sum)
+print("Сумма знакопеременного ряда равна: ", sum)
